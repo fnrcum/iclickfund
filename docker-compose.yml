@@ -9,7 +9,7 @@ services:
       - MARIADB_ALLOW_EMPTY_ROOT_PASSWORD=yes
       - MARIADB_SKIP_TEST_DB=yes
       - MARIADB_USER=root
-      - MARIADB_DATABASE=notonlyfans
+      - MARIADB_DATABASE=pledgio
   app:
     build: ./docker/app
     depends_on:
