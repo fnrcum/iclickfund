@@ -64,8 +64,8 @@ First we need to prepare a server with `docker` and `docker-compose` already ins
 ### Clone the code and start Docker
 
 ```bash
-git clone https://github.com/fnrcum/iclickfund.git
-cd not-only-fans
+git clone https://github.com/fnrcum/pledgio.git
+cd pledgio
 docker-compose up -d --build
 ```
 
@@ -77,7 +77,7 @@ Start by looking at the running Docker container.
 docker ps
 ```
 
-Record the container ID of the image as `not-only-fans_app` (CID for short), and then go inside the container.
+Record the container ID of the image as `pledgio` (CID for short), and then go inside the container.
 
 ```bash
 docker exec -it ${container_id} /bin/bash
@@ -99,8 +99,8 @@ cd /app/api/ && composer install && mkdir /app/api/storage && chmod -R 0777 /app
 
 This image uses different domains to point to different directories, you can point the following two domains to the server IP (i.e. SIP before) in localhost.
 
-1. `notonlyfans.vip` → SIP (front-end domain)
-1. `api.notonlyfans.vip` → SIP (API domain name)
+1. `pledgio.org` → SIP (front-end domain)
+1. `api.pledgio.org` → SIP (API domain name)
 
 Access at this point is ready for testing.
 
