@@ -1,4 +1,4 @@
-# IClickFund
+# Pledgio
 
 NotOnlyFans is an open source, self-hosted digital content subscription platform like `onlyfans.com`. The difference, however, is that it uses cryptocurrency (ETH) for payment, so the content will no longer be judged by the payment platform and credit card companies.
 
@@ -64,7 +64,7 @@ First we need to prepare a server with `docker` and `docker-compose` already ins
 ### Clone the code and start Docker
 
 ```bash
-git clone https://github.com/easychen/not-only-fans.git
+git clone https://github.com/fnrcum/iclickfund.git
 cd not-only-fans
 docker-compose up -d --build
 ```
