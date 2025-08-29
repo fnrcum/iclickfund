@@ -1,6 +1,6 @@
 # Pledgio
 
-NotOnlyFans is an open source, self-hosted digital content subscription platform like `onlyfans.com`. The difference, however, is that it uses cryptocurrency (ETH) for payment, so the content will no longer be judged by the payment platform and credit card companies.
+Pledgio is an open source, self-hosted digital content subscription platform like `onlyfans.com`. The difference, however, is that it uses cryptocurrency (ETH) for payment, so the content will no longer be judged by the payment platform and credit card companies.
 
 [简体中文](README.cn.md)
 
