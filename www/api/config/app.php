@@ -1,6 +1,6 @@
 <?php
-$GLOBALS['lpconfig']['site_name'] = 'NotOnlyFans';
-$GLOBALS['lpconfig']['site_domain'] = 'notonlyfans.vip';
+$GLOBALS['lpconfig']['site_name'] = 'Pledgio';
+$GLOBALS['lpconfig']['site_domain'] = 'pledgio.org';
 
 if (getenv('WEB_ALIAS_DOMAIN')) {
     $GLOBALS['lpconfig']['mode'] = 'pro';
@@ -11,12 +11,12 @@ if (getenv('WEB_ALIAS_DOMAIN')) {
 // 线上环境配置
 if (c('mode') == 'pro') {
     // 本地测试环境配置
-    $GLOBALS['lpconfig']['site_base_url'] = 'http://api.notonlyfans.vip/';
+    $GLOBALS['lpconfig']['site_base_url'] = 'http://api.pledgio.org/';
     $GLOBALS['lpconfig']['buildeverytime'] = false;
-    $GLOBALS['lpconfig']['image_allowed_domain'] = ['notonlyfans.vip','api.notonlyfans.vip'];   // 图片链接可以允许的域名
+    $GLOBALS['lpconfig']['image_allowed_domain'] = ['pledgio.org','api.pledgio.org'];   // 图片链接可以允许的域名
     $GLOBALS['lpconfig']['contract_address'] = '0xf6351b9af2da7f8613c6763b42feedae6441f309' ;
     $GLOBALS['lpconfig']['web3_network'] = 'https://ropsten.infura.io/v3/d4b5f8a729cc491e97d91f1180030623' ;
-    $GLOBALS['lpconfig']['default_avatar_url'] = 'http://notonlyfans.vip/image/avatar.jpg';
+    $GLOBALS['lpconfig']['default_avatar_url'] = 'http://pledgio.org/image/avatar.jpg';
 } else {
     // 本地测试环境配置
     $GLOBALS['lpconfig']['site_base_url'] = 'http://dd.ftqq.com:8088/';
