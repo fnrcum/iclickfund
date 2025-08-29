@@ -6,7 +6,7 @@
 # https://github.com/Sequel-Ace/Sequel-Ace
 #
 # Host: 127.0.0.1 (MySQL 8.0.25)
-# Database: notonlyfans
+# Database: pledgio
 # Generation Time: 2021-08-25 10:13:00 +0000
 # ************************************************************
 
