@@ -1,2 +1,2 @@
 FROM mariadb
-COPY notonlyfans.sql /docker-entrypoint-initdb.d/notonlyfans.sql
+COPY pledgio.sql /docker-entrypoint-initdb.d/pledgio.sql
