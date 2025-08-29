@@ -3,7 +3,7 @@ if (getenv('WEB_ALIAS_DOMAIN')) {
     $GLOBALS['lpconfig']['database'] = array(
         'adapter' => 'mysql',
         'host' => 'mariadb',
-        'name' => 'notonlyfans',
+        'name' => 'pledgio',
         'user' => 'root',
         'password' => '',
         'port' => 3306,
@@ -13,7 +13,7 @@ if (getenv('WEB_ALIAS_DOMAIN')) {
     $GLOBALS['lpconfig']['database'] = array(
         'adapter' => 'mysql',
         'host' => '127.0.0.1',
-        'name' => 'notonlyfans',
+        'name' => 'pledgio',
         'user' => 'root',
         'password' => '',
         'port' => 3306,
