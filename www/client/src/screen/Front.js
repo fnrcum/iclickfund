@@ -113,7 +113,7 @@ export default class Front extends Component
         <div className="logobox">
             <div className="logo-div"><Icon name="logo" size={120} color="white" /></div>
 
-            <div className="title">{t('欢迎来到NotOnlyFans，基于加密货币的数字内容订阅服务')}<LangIcon className="front"/></div>
+            <div className="title">{t('普莱吉欧Pledgio，基于加密货币的数字内容订阅服务')}<LangIcon className="front"/></div>
         </div>
         
         
