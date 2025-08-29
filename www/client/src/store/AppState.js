@@ -9,8 +9,8 @@ class AppState
 {
     lianmi_contract = process.env.REACT_APP_CONTRACT;
     
-    @observable appname = "NotOnlyFans";  
-    @observable domain = "notonlyfans.vip";  
+    @observable appname = "Pledgio";  
+    @observable domain = "pledgio.org";  
     
 
     @observable draft_viponly = true;
